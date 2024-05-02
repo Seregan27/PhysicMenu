@@ -1,0 +1,41 @@
+body{
+    background:linear-gradient(red, rgb(6, 6, 179));
+    width: 1579px;
+  
+  height: 1675px;
+  
+  }
+  @media (max-width:768px) {
+  
+  }
+  @media (max-width:320px) {
+  }
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border: #181818;
+  
+  }
+  .button{
+  position: absolute;
+  width: 139px;
+  height: 52px;
+  left: 919px;
+  top: 33px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px 36px 20px 36px;
+  }
+  
